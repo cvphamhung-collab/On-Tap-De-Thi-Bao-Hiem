@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <meta name="theme-color" content="#0f766e" />
+  <meta name="description" content="Ôn tập và thi thử chứng chỉ đại lý bảo hiểm trên điện thoại và máy tính." />
+  <title>Ôn Thi Đại Lý Bảo Hiểm</title>
+  <link rel="manifest" href="manifest.webmanifest" />
+  <link rel="icon" href="icons/icon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <button id="backBtn" class="icon-btn hidden" aria-label="Quay lại">←</button>
+    <div>
+      <div class="eyebrow">NGÂN HÀNG 595 CÂU</div>
+      <h1 id="pageTitle">Ôn Thi Đại Lý Bảo Hiểm</h1>
+    </div>
+    <button id="themeBtn" class="icon-btn" aria-label="Đổi giao diện">☾</button>
+  </header>
+
+  <main id="app" class="container"></main>
+
+  <nav class="bottom-nav" aria-label="Điều hướng chính">
+    <button data-nav="home" class="active"><span>⌂</span><small>Trang chủ</small></button>
+    <button data-nav="study"><span>▤</span><small>Ôn thi</small></button>
+    <button data-nav="exam"><span>✓</span><small>Thi thử</small></button>
+    <button data-nav="mistakes"><span>↻</span><small>Câu sai</small></button>
+  </nav>
+
+  <div id="toast" class="toast" role="status"></div>
+  <script src="data/questions.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

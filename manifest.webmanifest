@@ -1,0 +1,10 @@
+{
+  "name":"Ôn Thi Đại Lý Bảo Hiểm",
+  "short_name":"Thi Bảo Hiểm",
+  "start_url":"./",
+  "display":"standalone",
+  "background_color":"#f5f7fb",
+  "theme_color":"#0f766e",
+  "lang":"vi",
+  "icons":[{"src":"icons/icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}]
+}
